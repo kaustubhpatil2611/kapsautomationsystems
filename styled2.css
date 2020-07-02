@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre&display=swap');
+
+body{
+  margin:0;
+  right:0;
+  bottom: 0;
+  font-family: Abhaya Libre;
+
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  background:#ff3300;;
+  position:sticky;
+  top:0;
+  left:0;
+  z-index: 9000;
+  display: block;
+}
+
+nav a{
+  display:inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  float: left;
+  color: #ffffff;
+  transition:border-bottom 0.5s;
+}
+
+
+section
+{
+  position: relative;
+}
+
+
+section img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding:0px;
+  padding-top: 0px;
+
+}
+.container{
+  display: inline-block;
+  z-index: 9000;
+  margin: auto 0px;
+  float:left;
+  font-size: 2.5vw;
+}
+
+
+.hello{
+  float: left;
+  padding-left: 25px;
+  font-size: 2.5vw;
+}
+
+a:hover{
+  border-bottom: 2px solid #ffffff;
+}
+
+.content{
+  padding-top: 80px;
+}
+
+footer{
+    background: linear-gradient(to bottom, #660066 0%, #666699 100%);
+  bottom: 0;
+  left:0;
+  width:100%;
+  display: block;
+  clear: both;
+  position: relative;
+  height:300px;
+}
+
+.foot1{
+  padding:18px;
+  padding-bottom: 0px;
+  /*font-size: 120%;*/
+  color:#ffffff;
+  display: inline-block;
+  text-align: left;
+}
+
+.foot2{
+  margin-left:auto;
+  margin-right: auto;
+  vertical-align: middle;
+  float: left;
+  clear: both;
+}
+
+.foot3{
+  text-decoration: none;
+  display:inline-block;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.right{
+  display: inline-block;
+  float:right;
+  width:73%;
+  margin-top: 10px;
+}
+
+table{
+  color: #0066ff; 
+  margin:50px;
+  box-shadow: 5px 5px 5px #989898;  
+}
+
+
+th{
+  background:#ffff00;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: solid 2px;
+  border-bottom-color: #00ff00;
+  padding:10px;
+  border:solid 2px;
+  border-color: #FFFFFF;
+}
+
+
+/*Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered*/
+tr th,tr td{
+  text-align:center;
+}
+tr th:first-child, tr td:first-child{
+  text-align: left;
+}
+
+
+/*Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible)*/
+tr{
+  opacity:0.7;
+}
+
+/*Change the opacity of a row when it is hovered over*/
+tr:hover{
+  opacity:1;
+  transform: scale(1.1, 1.1);
+}
+
+/*The table elements <td> should be styled using at least four properties*/
+td{
+  
+  border:solid 2px;
+  border-color: #FFFFFF;
+  background:#ffffb3;
+}
+
+.left{
+  display: inline-block;
+  background: #ff6600;
+  width: 25%;
+  box-shadow: 5px 5px 5px #989898;
+}
+
+.left img{
+  width:80%;
+  margin:10%;
+  box-shadow: 5px 5px 5px #989898;
+  border:solid 0.2px;
+  border-radius:2px;
+  
+}
+

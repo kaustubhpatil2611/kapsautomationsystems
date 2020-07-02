@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre&display=swap');
+
+body{
+  margin:0;
+  right:0;
+  bottom: 0;
+  font-family: Abhaya Libre;
+
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  background:#ff3300;;
+  position:sticky;
+  top:0;
+  left:0;
+  z-index: 9000;
+}
+
+nav a{
+  display:inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  float: left;
+  color: #ffffff;
+  transition:border-bottom 0.5s;
+}
+
+
+section
+{
+  position: relative;
+}
+
+
+section img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding:0px;
+  padding-top: 0px;
+
+}
+.container{
+  display: inline-block;
+  z-index: 9000;
+  margin: auto 0px;
+  float:left;
+  font-size: 2.5vw;
+}
+
+
+.hello{
+  float: left;
+  padding-left: 25px;
+  font-size: 2.5vw;
+}
+
+a:hover{
+  border-bottom: 2px solid #ffffff;
+}
+
+.content{
+  padding-top: 80px;
+}
+
+footer{
+    background: linear-gradient(to bottom, #660066 0%, #666699 100%);
+  bottom: 0;
+  left:0;
+  width:100%;
+  display: block;
+  clear: both;
+  position: relative;
+  height:300px;
+}
+
+.foot1{
+  padding:18px;
+  padding-bottom: 0px;
+  /*font-size: 120%;*/
+  color:#ffffff;
+  display: inline-block;
+  text-align: left;
+}
+
+.foot2{
+  margin-left:auto;
+  margin-right: auto;
+  vertical-align: middle;
+  float: left;
+  clear: both;
+}
+
+.foot3{
+  text-decoration: none;
+  display:inline-block;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+a:hover{
+  border-bottom: 2px solid #ffffff;
+}
+
+.content{
+  padding-top: 80px;
+}
+
+div img{
+  height:230px;
+  width:350px;
+}
+.fs-title
+{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+.flip-box {
+  background-color: transparent;
+  width: 350px;
+  height: 230px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+border-radius:10px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-image:url('single.jpg');
+  background-size:cover;
+  box-shadow: 0 26px 36px 0 rgba(0,0,0,0.24), 0 27px 50px 0 rgba(0,0,0,0.19);
+  border: 0 none;
+}
+
+
+.flip-box-back {
+  background: #ffffff;
+  transform: rotateY(180deg);
+  color: #ff6600;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+

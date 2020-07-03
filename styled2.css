@@ -114,6 +114,7 @@ footer{
 table{
   color: #0066ff; 
   margin:50px;
+  margin-top: 10px;
   box-shadow: 5px 5px 5px #989898;  
 }
 
